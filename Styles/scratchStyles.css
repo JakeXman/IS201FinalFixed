@@ -1,0 +1,105 @@
+.common{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 20px;
+}
+.header{
+    height:80px;
+    line-height: 80px;
+    font-size:50px;
+    color:white;
+    background-image:url('../Assets/Header.jpg');
+    font-weight:bold;
+    font-style:oblique
+}
+.body{
+    background-color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding:25px;
+}
+ol{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: large;
+}
+.footer{
+    background-color: grey;
+    color:white;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    line-height: 25px;
+    height:25px;
+    opacity:50%;
+}
+img{
+    display:block;
+    width:50%;
+}
+.video {
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
+}
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+nav{
+    background-color:rgb(230, 206, 169);
+    padding: 10px;
+    overflow:hidden;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    padding:20px;
+}
+nav a:hover{
+    background-color: whitesmoke;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    line-height:30px;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+h3{
+    font-weight: normal;
+    font-size: medium
+    ;
+}
+.paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: black;
+}
+.tableauVis{
+    padding:0px;
+}
+.webapptext{
+    color: whitesmoke;
+    padding:5px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 1px;
+
+}
